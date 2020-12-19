@@ -1,0 +1,732 @@
+body {
+    background: #e5e5e5;
+}
+
+.main {
+    position: relative;
+    width: 1024px;
+    margin: auto;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.frame1 {
+    position: absolute;
+    width:1024px;
+    height:720px;
+    background: #ffffff;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.frame2 {
+    position: absolute;
+    width:1024px;
+    height:720px;
+    top:720px;
+    background: #ffffff;
+}
+
+.frame3 {
+    position: absolute;
+    width:1024px;
+    height:720px;
+    top:1440px;
+    background: linear-gradient(180deg, #6d2474 60.33%, #ffe666 128.77%);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.nav {
+    position: absolute;
+    width:45;
+    height:720px;
+    top:0px;
+    left:0px;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, #ffffff 100%);
+    color: transparent;
+    border-radius: 5px 0px 0px 0px;
+}
+
+/* frame1 */
+.banner-quote {
+    position: absolute;
+    width: 512px;
+    height: 720px;
+    left: 0px;
+    top: 0px;
+    
+    background: linear-gradient(59.67deg, #6D2474 9.96%, rgba(200, 107, 21, 0.8) 96.84%);
+    border-radius: 5px 0px 0px 0px;
+}
+
+.quote-id {
+    position: absolute;
+    width: 389px;
+    height: 210px;
+    left: 84px;
+    top: 226px;
+    
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    
+    color: #FFE976;
+}
+
+.quote-ned {
+    position: absolute;
+    width: 389px;
+    height: 63px;
+    left: 84px;
+    top: 460px;
+    
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    
+    color: #FFE976;
+}
+
+.author {
+    position: absolute;
+    width: 389px;
+    height: 32px;
+    left: 84px;
+    top: 547px;
+    
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+    
+    text-align: right;
+    
+    color: #FFE976;
+}
+
+.banner-logo {
+    position: absolute;
+    left: 50%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #000000;
+    border-radius: 0px 5px 0px 0px;    
+}
+
+.logo {
+    position: absolute;
+    width: 503px;
+    height: 235px;
+    left: 4.5px;
+    top: 242px;
+}
+
+/* frame2 */
+.title-frame2 {
+    position: absolute;
+    width: 583px;
+    height: 32px;
+    left: 95px;
+    top: 133px;
+    
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.paragraf {
+    position: absolute;
+    width: 583px;
+    height: 428px;
+    left: 95px;
+    top: 198px;
+    
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.line1 {
+    position: absolute;
+    width: 23px;
+    height: 0px;
+    left: 375px;
+    top: 173px;
+    background: #6D2474;
+    border: 3px solid #6D2474;
+}
+
+.foto1 {
+    position: absolute;
+    width: 222px;
+    height: 409px;
+    left: 725px;
+    top: 198px;
+}
+
+/* frame3 */
+.title-frame3 {
+    position: absolute;
+    width: 260px;
+    height: 47px;
+    left: 382px;
+    top: 102px;
+    
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    
+    color: #FFE976;
+}
+
+.line2 {
+    position: absolute;
+    width: 0px;
+    height: 312px;
+    left: 362px;
+    top: 270px;
+    background: #FFE976;
+    border: 3px solid #FFE976;
+}
+
+.node1 {
+    position: absolute;
+    width: 21px;
+    height: 19px;
+    left: 354px;
+    top: 260px;
+    border-radius: 50%;
+    background: #FFE976;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.node2 {
+    position: absolute;
+    width: 21px;
+    height: 19px;
+    left: 354px;
+    top: 416px;
+    border-radius: 50%;
+    background: #FFE976;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.node3 {
+    position: absolute;
+    width: 21px;
+    height: 19px;
+    left: 354px;
+    top: 572px;
+    border-radius: 50%;
+    background: #FFE976;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.label-kontak1 {
+    position: absolute;
+    width: 109px;
+    height: 47px;
+    left: 96px;
+    top: 246px;
+    
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    color: #DF8FEC;
+}
+
+.label-kontak2 {
+    position: absolute;
+    width: 130px;
+    height: 47px;
+    left: 96px;
+    top: 402px;
+    
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    color: #DF8FEC;
+}
+
+.label-kontak3 {
+    position: absolute;
+    width: 173px;
+    height: 47px;
+    left: 96px;
+    top: 558px;
+    
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    color: #DF8FEC;
+}
+
+.value-kontak1 {
+    position: absolute;
+    width: 476px;
+    height: 47px;
+    left: 452px;
+    top: 246px;
+    
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.value-kontak2 {
+    position: absolute;
+    width: 195px;
+    height: 188px;
+    left: 452px;
+    top: 342px;
+    
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.value-kontak3 {
+    position: absolute;
+    width: 303px;
+    height: 47px;
+    left: 452px;
+    top: 558px;
+    
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* nav */
+.btn1 {
+    position: absolute;
+    width: 21px;
+    height: 19px;
+    left: 10px;
+    top: 46px;
+    border-radius: 50%;
+    background: #FFE609;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.btn2 {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 10px;
+    top: 82px;
+    border-radius: 50%;
+    background: #FFE666;
+    transform: matrix(-1, 0, 0, 1, 0, 0);   
+}
+
+.btn3 {
+    position: absolute;
+    width: 21px;
+    height: 19px;
+    left: 10px;
+    top: 120px;
+    border-radius: 50%;
+    background: #FFF2AB;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+@media (max-width: 576px) {
+
+    .main {
+        position: relative;
+        width: 520px;
+        height: 2055px;
+        
+        background: #FFFFFF;        
+    }
+    
+    .frame1 {
+        position: absolute;
+        width: 520px;
+        height: 685px;
+        left: 0px;
+        top: 0px;
+        border-radius: 5px 5px 0px 0px;
+        background: #FFFFFF;
+    }
+    
+    .frame2 {
+        position: absolute;
+        width: 520px;
+        height: 685px;
+        left: 0px;
+        top: 685px;
+        
+        background: #FFFFFF;
+    }
+    
+    .frame3 {
+        position: absolute;
+        width: 520px;
+        height: 685px;
+        left: 0px;
+        top: 1370px;        
+        background: linear-gradient(180deg, #6D2474 60.33%, #FFE666 128.77%);
+        border-radius: 0px 0px 5px 5px;
+    }
+    
+    .nav {
+        visibility: hidden;
+    }
+    
+    /* frame1 */
+    .banner-quote {
+        position: absolute;
+        left: 0px;
+        top: 100px;
+        width: 520px;
+        height: 585px;
+        
+        background: linear-gradient(59.67deg, #6D2474 9.96%, rgba(200, 107, 21, 0.8) 96.84%);
+        border-radius: 0px;
+    }
+    
+    .quote-id {
+        position: absolute;
+        width: 409px;
+        height: 185px;
+        left: 55px;
+        top: 234px;
+        
+        font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 37px;
+        
+        color: #FFE976;
+    }
+    
+    .quote-ned {
+        position: absolute;
+        width: 409px;
+        height: 42px;
+        left: 55px;
+        top: 434px;
+        
+        font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+        
+        color: #FFE976;
+    }
+    
+    .author {
+        position: absolute;
+        width: 409px;
+        height: 32px;
+        left: 55px;
+        top: 541px;
+        
+        font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height */
+        
+        text-align: right;
+        
+        color: #FFE976;
+    }
+    
+    .banner-logo {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 520px;
+        height: 100px;
+        
+        background: #000000;
+        border-radius: 5px 5px 0px 0px;  
+    }
+    
+    .logo {
+        position: absolute;
+        left: 185px;
+        top: 20px;
+        width: 150px;
+        height: 70px;
+    }
+    
+    /* frame2 */
+    .title-frame2 {
+        position: absolute;
+        width: 240px;
+        height: 24px;
+        left: 50px;
+        top: 144px;
+        
+        font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+        /* identical to box height */
+        
+        text-align: center;
+        
+        color: #000000;
+    }
+    
+    .paragraf {
+        position: absolute;
+        width: 240px;
+        height: 389px;
+        left: 50px;
+        top: 211px;
+        
+        font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        
+        color: #000000;
+    }
+    
+    .line1 {
+        position: absolute;
+        width: 23px;
+        height: 0px;
+        left: 158px;
+        top: 183px;
+        background: #6D2474;
+        border: 3px solid #6D2474;
+    }
+    
+    .foto1 {
+        position: absolute;
+        width: 170px;
+        height: 316px;
+        left: 315px;
+        top: 184px;
+    }
+    
+    /* frame3 */
+    .title-frame3 {
+        position: absolute;
+        width: 173px;
+        height: 32px;
+        left: 170px;
+        top: 120px;
+        
+        font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height */
+        
+        text-align: center;
+        
+        color: #FFE976;
+    }
+    
+    .line2 {
+        position: absolute;
+        width: 0px;
+        height: 244px;
+        left: 165px;
+        top: 243px;
+        background: #FFE976;
+        border: 3px solid #FFE976;
+    }
+    
+    .node1 {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        left: 160px;
+        top: 238px;        
+        border-radius: 50%;
+        background: #FFE976;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+    
+    .node2 {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        left: 160px;
+        top: 482px;
+        border-radius: 50%;
+        background: #FFE976;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+    
+    .node3 {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        left: 160px;
+        top: 238px;
+        border-radius: 50%;
+        background: #FFE976;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+    
+    .label-kontak1 {
+        position: absolute;
+        width: 49px;
+        height: 21px;
+        left: 68px;
+        top: 234px;
+        
+        font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+        
+        color: #DF8FEC;
+    }
+    
+    .label-kontak2 {
+        position: absolute;
+        width: 58px;
+        height: 21px;
+        left: 68px;
+        top: 354px;
+        
+        font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+        
+        color: #DF8FEC;
+    }
+    
+    .label-kontak3 {
+        position: absolute;
+        width: 77px;
+        height: 21px;
+        left: 68px;
+        top: 474px;
+        
+        font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+        
+        color: #DF8FEC;
+    }
+    
+    .value-kontak1 {
+        position: absolute;
+        width: 265px;
+        height: 26px;
+        left: 188px;
+        top: 232px;
+        
+        font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        
+        color: #FFFFFF;
+    }
+    
+    .value-kontak2 {
+        position: absolute;
+        width: 109px;
+        height: 104px;
+        left: 188px;
+        top: 318px;
+        
+        font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        
+        color: #FFFFFF;
+    }
+    
+    .value-kontak3 {
+        position: absolute;
+        width: 169px;
+        height: 26px;
+        left: 188px;
+        top: 472px;
+        
+        font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        
+        color: #FFFFFF;
+    }
+    
+    /* nav */
+    .btn1 {
+        visibility: hidden;
+    }
+    
+    .btn2 {
+        visibility: hidden;
+    }
+    
+    .btn3 {
+        visibility: hidden;
+    }
+}
