@@ -381,39 +381,39 @@ body {
     .main {
         position: relative;
         width: 520px;
-        height: 2055px;
+        height: 2205px;
         
         background: #FFFFFF;        
     }
     
     .frame1 {
         position: absolute;
-        width: 520px;
-        height: 685px;
-        left: 0px;
+        width: 335px;
+        height: 735px;
         top: 0px;
         border-radius: 5px 5px 0px 0px;
         background: #FFFFFF;
+        margin: auto;
     }
     
     .frame2 {
         position: absolute;
-        width: 520px;
-        height: 685px;
-        left: 0px;
+        width: 335px;
+        height: 735px;
         top: 685px;
-        
+        margin: auto;
         background: #FFFFFF;
     }
     
     .frame3 {
         position: absolute;
-        width: 520px;
-        height: 685px;
+        width: 335px;
+        height: 735px;
         left: 0px;
-        top: 1370px;        
+        top: 1470px;        
         background: linear-gradient(180deg, #6D2474 60.33%, #FFE666 128.77%);
         border-radius: 0px 0px 5px 5px;
+        margin: auto;
     }
     
     .nav {
@@ -424,9 +424,9 @@ body {
     .banner-quote {
         position: absolute;
         left: 0px;
-        top: 100px;
-        width: 520px;
-        height: 585px;
+        top: 107.3px;
+        width: 365px;
+        height: 627.7px;
         
         background: linear-gradient(59.67deg, #6D2474 9.96%, rgba(200, 107, 21, 0.8) 96.84%);
         border-radius: 0px;
@@ -434,10 +434,10 @@ body {
     
     .quote-id {
         position: absolute;
-        width: 409px;
-        height: 185px;
-        left: 55px;
-        top: 234px;
+        width: 320px;
+        height: 222px;
+        left: 22px;
+        top: 217px;
         
         font-family: Roboto Mono;
         font-style: normal;
@@ -450,10 +450,10 @@ body {
     
     .quote-ned {
         position: absolute;
-        width: 409px;
-        height: 42px;
-        left: 55px;
-        top: 434px;
+        width: 320px;
+        height: 63px;
+        left: 22px;
+        top: 480px;
         
         font-family: Roboto Mono;
         font-style: normal;
@@ -466,10 +466,10 @@ body {
     
     .author {
         position: absolute;
-        width: 409px;
+        width: 320px;
         height: 32px;
-        left: 55px;
-        top: 541px;
+        left: 22px;
+        top: 594px;
         
         font-family: Roboto Mono;
         font-style: normal;
@@ -487,8 +487,8 @@ body {
         position: absolute;
         left: 0px;
         top: 0px;
-        width: 520px;
-        height: 100px;
+        width: 365px;
+        height: 107.3px;
         
         background: #000000;
         border-radius: 5px 5px 0px 0px;  
@@ -496,24 +496,24 @@ body {
     
     .logo {
         position: absolute;
-        left: 185px;
-        top: 20px;
-        width: 150px;
-        height: 70px;
+        left: 98px;
+        top: 21px;
+        width: 165px;
+        height: 74px;
     }
     
     /* frame2 */
     .title-frame2 {
         position: absolute;
-        width: 240px;
-        height: 24px;
-        left: 50px;
-        top: 144px;
+        width: 200px;
+        height: 21px;
+        left: 78px;
+        top: 59px;
         
         font-family: Roboto Mono;
         font-style: normal;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 24px;
         /* identical to box height */
         
@@ -524,10 +524,10 @@ body {
     
     .paragraf {
         position: absolute;
-        width: 240px;
-        height: 389px;
-        left: 50px;
-        top: 211px;
+        width: 300px;
+        height: 279px;
+        left: 28px;
+        top: 120px;
         
         font-family: Roboto Mono;
         font-style: normal;
@@ -543,18 +543,18 @@ body {
         position: absolute;
         width: 23px;
         height: 0px;
-        left: 158px;
-        top: 183px;
+        left: 166px;
+        top: 101px;
         background: #6D2474;
         border: 3px solid #6D2474;
     }
     
     .foto1 {
         position: absolute;
-        width: 170px;
-        height: 316px;
-        left: 315px;
-        top: 184px;
+        width: 192px;
+        height: 259px;
+        left: 70px;
+        top: 420px;
     }
     
     /* frame3 */
@@ -562,8 +562,8 @@ body {
         position: absolute;
         width: 173px;
         height: 32px;
-        left: 170px;
-        top: 120px;
+        left: 91px;
+        top: 96px;
         
         font-family: Roboto Mono;
         font-style: normal;
@@ -581,8 +581,8 @@ body {
         position: absolute;
         width: 0px;
         height: 244px;
-        left: 165px;
-        top: 243px;
+        left: 97px;
+        top: 219px;
         background: #FFE976;
         border: 3px solid #FFE976;
     }
@@ -591,8 +591,8 @@ body {
         position: absolute;
         width: 10px;
         height: 10px;
-        left: 160px;
-        top: 238px;        
+        left: 92px;
+        top: 214px;        
         border-radius: 50%;
         background: #FFE976;
         transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -602,8 +602,8 @@ body {
         position: absolute;
         width: 10px;
         height: 10px;
-        left: 160px;
-        top: 482px;
+        left: 92px;
+        top: 458px;
         border-radius: 50%;
         background: #FFE976;
         transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -613,8 +613,8 @@ body {
         position: absolute;
         width: 10px;
         height: 10px;
-        left: 160px;
-        top: 238px;
+        left: 92px;
+        top: 337px;
         border-radius: 50%;
         background: #FFE976;
         transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -622,32 +622,32 @@ body {
     
     .label-kontak1 {
         position: absolute;
-        width: 49px;
+        width: 59px;
         height: 21px;
-        left: 68px;
-        top: 234px;
+        left: 21px;
+        top: 210px;
         
         font-family: Roboto Mono;
         font-style: normal;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 21px;
-        text-align: center;
+        text-align: left;
         
         color: #DF8FEC;
     }
     
     .label-kontak2 {
         position: absolute;
-        width: 58px;
+        width: 59px;
         height: 21px;
-        left: 68px;
-        top: 354px;
+        left: 21px;
+        top: 330px;
         
         font-family: Roboto Mono;
         font-style: normal;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 21px;
         text-align: center;
         
@@ -656,15 +656,15 @@ body {
     
     .label-kontak3 {
         position: absolute;
-        width: 77px;
+        width: 72px;
         height: 21px;
-        left: 68px;
-        top: 474px;
+        left: 21px;
+        top: 450px;
         
         font-family: Roboto Mono;
         font-style: normal;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 21px;
         text-align: center;
         
@@ -673,15 +673,15 @@ body {
     
     .value-kontak1 {
         position: absolute;
-        width: 265px;
-        height: 26px;
-        left: 188px;
-        top: 232px;
+        width: 219px;
+        height: 21px;
+        left: 115px;
+        top: 208px;
         
         font-family: Roboto Mono;
         font-style: normal;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 16px;
         line-height: 26px;
         text-align: left;
         text-decoration: none;
@@ -691,15 +691,15 @@ body {
     
     .value-kontak2 {
         position: absolute;
-        width: 109px;
-        height: 104px;
-        left: 188px;
-        top: 318px;
+        width: 211px;
+        height: 84px;
+        left: 115x;
+        top: 294px;
         
         font-family: Roboto Mono;
         font-style: normal;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 16px;
         line-height: 26px;
         text-align: left;
         text-decoration: none;
@@ -709,15 +709,15 @@ body {
     
     .value-kontak3 {
         position: absolute;
-        width: 169px;
-        height: 26px;
-        left: 188px;
-        top: 472px;
+        width: 211px;
+        height: 21px;
+        left: 115px;
+        top: 448px;
         
         font-family: Roboto Mono;
         font-style: normal;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 16px;
         line-height: 26px;
         text-align: left;
         text-decoration: none;
