@@ -679,7 +679,8 @@ body {
         font-weight: bold;
         font-size: 20px;
         line-height: 26px;
-        text-align: center;
+        text-align: left;
+        text-decoration: none;
         
         color: #FFFFFF;
     }
@@ -696,6 +697,8 @@ body {
         font-weight: bold;
         font-size: 20px;
         line-height: 26px;
+        text-align: left;
+        text-decoration: none;
         
         color: #FFFFFF;
     }
@@ -712,7 +715,8 @@ body {
         font-weight: bold;
         font-size: 20px;
         line-height: 26px;
-        text-align: center;
+        text-align: left;
+        text-decoration: none;
         
         color: #FFFFFF;
     }
