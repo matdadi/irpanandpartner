@@ -380,9 +380,9 @@ body {
 
     .main {
         position: relative;
-        width: 520px;
+        width: 340px;
         height: 2205px;
-        
+        margin: auto;
         background: #FFFFFF;        
     }
     
@@ -425,7 +425,7 @@ body {
         position: absolute;
         left: 0px;
         top: 107.3px;
-        width: 365px;
+        width: 335px;
         height: 627.7px;
         
         background: linear-gradient(59.67deg, #6D2474 9.96%, rgba(200, 107, 21, 0.8) 96.84%);
@@ -487,7 +487,7 @@ body {
         position: absolute;
         left: 0px;
         top: 0px;
-        width: 365px;
+        width: 335px;
         height: 107.3px;
         
         background: #000000;
