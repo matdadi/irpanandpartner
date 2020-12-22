@@ -400,7 +400,7 @@ body {
         position: absolute;
         width: 335px;
         height: 735px;
-        top: 685px;
+        top: 735px;
         margin: auto;
         background: #FFFFFF;
     }
@@ -437,7 +437,7 @@ body {
         width: 320px;
         height: 222px;
         left: 22px;
-        top: 217px;
+        top: 109.7px;
         
         font-family: Roboto Mono;
         font-style: normal;
@@ -453,7 +453,7 @@ body {
         width: 320px;
         height: 63px;
         left: 22px;
-        top: 480px;
+        top: 372.7px;
         
         font-family: Roboto Mono;
         font-style: normal;
@@ -469,7 +469,7 @@ body {
         width: 320px;
         height: 32px;
         left: 22px;
-        top: 594px;
+        top: 486.7px;
         
         font-family: Roboto Mono;
         font-style: normal;
@@ -591,7 +591,7 @@ body {
         position: absolute;
         width: 10px;
         height: 10px;
-        left: 92px;
+        left: 95px;
         top: 214px;        
         border-radius: 50%;
         background: #FFE976;
@@ -602,7 +602,7 @@ body {
         position: absolute;
         width: 10px;
         height: 10px;
-        left: 92px;
+        left: 95px;
         top: 458px;
         border-radius: 50%;
         background: #FFE976;
@@ -613,7 +613,7 @@ body {
         position: absolute;
         width: 10px;
         height: 10px;
-        left: 92px;
+        left: 95px;
         top: 337px;
         border-radius: 50%;
         background: #FFE976;
@@ -693,7 +693,7 @@ body {
         position: absolute;
         width: 211px;
         height: 84px;
-        left: 115x;
+        left: 115px;
         top: 294px;
         
         font-family: Roboto Mono;
