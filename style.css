@@ -436,7 +436,7 @@ body {
         position: absolute;
         width: 320px;
         height: 222px;
-        left: 22px;
+        left: 7.5px;
         top: 109.7px;
         
         font-family: Roboto Mono;
@@ -452,7 +452,7 @@ body {
         position: absolute;
         width: 320px;
         height: 63px;
-        left: 22px;
+        left: 7.5px;
         top: 372.7px;
         
         font-family: Roboto Mono;
@@ -468,7 +468,7 @@ body {
         position: absolute;
         width: 320px;
         height: 32px;
-        left: 22px;
+        left: 7.5px;
         top: 486.7px;
         
         font-family: Roboto Mono;
@@ -496,7 +496,7 @@ body {
     
     .logo {
         position: absolute;
-        left: 98px;
+        left: 85px;
         top: 21px;
         width: 165px;
         height: 74px;
@@ -603,7 +603,7 @@ body {
         width: 10px;
         height: 10px;
         left: 95px;
-        top: 458px;
+        top: 465px;
         border-radius: 50%;
         background: #FFE976;
         transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -659,7 +659,7 @@ body {
         width: 72px;
         height: 21px;
         left: 21px;
-        top: 450px;
+        top: 457px;
         
         font-family: Roboto Mono;
         font-style: normal;
@@ -712,7 +712,7 @@ body {
         width: 211px;
         height: 21px;
         left: 115px;
-        top: 448px;
+        top: 455px;
         
         font-family: Roboto Mono;
         font-style: normal;
